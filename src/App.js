@@ -1,12 +1,32 @@
-import React from 'react';
+import React, {Component} from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
+import Sidebar from './Sidebar'
+import Content from './Content'
 
-import './App.css';
 
-function App() {
-  return (
-    <div><h1>Hi Tony this is my first Test</h1></div>
 
-)
+
+class App extends Component {
+  state = {
+    tex: "Hello"
+  }
+
+	// Render
+	render() {
+		return (
+			<div id="wrap">
+        <div id="wrap">
+				<Sidebar getMessages={this.getMessages} />
+        <Sidebar getMessages={this.getMessages} />
+
+			</div>
+
+
+
+			</div>
+		)
+	}
 }
 
-export default App;
+export default App
