@@ -1,19 +1,20 @@
 import React, {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css'
+import './Sidebar.css'
 
 
-class App extends Component {
+class Channel extends Component {
   state = {
-    tex: "Hello"
-  }
+
+   }
+
 
 	// Render
 	render() {
-		return <h1>Hello</h1>
+    return
+  }
 
 
-	}
 }
 
-export default App
+export default Channel

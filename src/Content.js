@@ -2,20 +2,23 @@ import React, {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Content.css'
 
+import Sidebar from './Sidebar'
+
 
 class Content extends Component {
   state = {
-    messages: [{
+    messages: [
+      {
       auther: "twitter User @orasa",
       date: Date.now,
       body: "What a wonderful world!",
       image: "/jpg"
     },
    {
-     auther: 'twitter User @someone,
+     auther: "twitter User @someone",
      date: Date.now,
-     body: 'Somewhere over the rainbow',
-     image: './jpg'
+     body: "Somewhere over the rainbow",
+     image: "./jpg"
    }
   ]
 
@@ -34,7 +37,6 @@ class Content extends Component {
 
   }
 
-
 }
 
-export default Sidebar
+export default Content
