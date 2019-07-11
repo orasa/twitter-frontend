@@ -1,14 +1,22 @@
 #mainMessageBox {
-  width: 100vw - 250px;
-  
+  background-color: pink;
+  width: 100vw - 300px;
+
 
 }
+.message {
+  border-radius: 5px;
+  border: solid 1px grey;
+  background-color: white;
+  padding: 10px;
+  width: 300px;
+}
 
-#messageBox {
+/* #messageBox {
 padding: 20px;
 height: calc(100vh - 80px);
 
-  }
+  } */
 
 #newMessage {
 background-color: ;

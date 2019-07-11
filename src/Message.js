@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './Content.css'
-import './Message.css'
+
 
 
 class Message extends Component {
@@ -9,6 +9,19 @@ class Message extends Component {
 		message: this.props.message
 	}
 	// Functions
+	createMessage = (e, text) => {
+  e.preventDefault()
+  let message = {
+  id:1,
+  author: "Scarlett O'Neal",
+  date: "10 march 2019",
+  body: text,
+
+}
+let messages = this.state.messages
+messages.push(message)
+this.setState({messages})
+}
 
 	// Render
 	render() {

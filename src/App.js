@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './pai.jpg'
 import './App.css'
-import AllContent from './AllContent'
+import Header from './Header'
 import Content from './Content'
 import Sidebar from './Sidebar'
 
@@ -13,15 +13,17 @@ class App extends Component {
 	render() {
     return (
 			<div id='wrap' className="wrap bg-light p-5">
-        <AllContent />
+        <Header />
 				<div id='mainContent'>
 				  <div className="row">
+
 
 					  <Sidebar />
 						<Content />
 				</div>
 			</div>
 		</div>
+
 
 		)
 	}
