@@ -17,7 +17,6 @@ class App extends Component {
 				<div id='mainContent'>
 				  <div className="row">
 
-
 					  <Sidebar />
 						<Content />
 				</div>
