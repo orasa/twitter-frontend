@@ -3,7 +3,7 @@ import Pai  from './pai.jpg'
 import './App.css'
 
 
-class AllContent extends Component {
+class Header extends Component {
 
 	render() {
     return (
@@ -34,13 +34,11 @@ class AllContent extends Component {
                  <span>Login</span>
                </div>
             </div>
-
-
   </div>
-
+//End of parent Div
     )
   }
 }
 
 
-export default AllContent
+export default Header

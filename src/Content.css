@@ -32,6 +32,7 @@ background: #fafafa;
     background-color: black;
     width: 400px;
   }
+
   .message {
     border-radius: 5px;
     border: solid 2px grey;
@@ -61,6 +62,16 @@ height:80px;
 border-radius: 5px;
 border: solid 3px grey;
 
-
+}
+#postMessage  {
+  margin: 50px;
+  width: 500px;
+}
+.hashtagBox {
+  background-color: white;
+  border-radius: 5px;
+  border: solid 3px grey;
+}
+.hashtag ul {
 
 }

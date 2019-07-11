@@ -30,7 +30,7 @@ class NewMessage extends Component {
 		return (
 			<div className="row">
 
-			 <form onSubmit={(e) => {
+			 <form id="postMessage" onSubmit={(e) => {
 					this.props.createMessage(e, this.state.text); this.clearMessage()}
 				}>
 				<div className="input-group">

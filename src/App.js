@@ -7,7 +7,11 @@ import Content from './Content'
 import Sidebar from './Sidebar'
 
 
+
 class App extends Component {
+	state = {
+		hashtag: ''
+	}
 
 	// Render
 	render() {
@@ -18,7 +22,8 @@ class App extends Component {
 				  <div className="row">
 
 					  <Sidebar />
-						<Content />
+						<Content hastag={this.state.hastag}/>
+
 				</div>
 			</div>
 		</div>
