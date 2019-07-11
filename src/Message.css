@@ -1,0 +1,18 @@
+#mainMessageBox {
+  width: 100vw - 250px;
+  
+
+}
+
+#messageBox {
+padding: 20px;
+height: calc(100vh - 80px);
+
+  }
+
+#newMessage {
+background-color: ;
+padding: 50px;
+height: 300px;
+
+}

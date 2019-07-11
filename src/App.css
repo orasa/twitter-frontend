@@ -1,10 +1,10 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: Lato,sans-sans-serif;
+#wrap {
+  height: 100vh;
 
 }
-
+#header {
+  
+}
 #picture {
 height: 370px;
 background-image: url("pai.jpg");
@@ -17,8 +17,7 @@ background-position: center;
   height: 100px;
   background-color: bg-info;
 }
-
-#profile{
+#profilePicture {
   height: 150px;
   width: 150px;
   background: red;
@@ -29,23 +28,6 @@ background-position: center;
   background-size: cover;
   position: relative;
   top: -100px;
+  z-index:3000;
 
-  z-index: 3000;
-
-}
-
-#newNewsage {
-padding: 100px;
-height: 300px;
-overflow-y: auto;
-}
-
-#mainContent {
-  background: lightpink;
-  height: 100vh;
-  display: grid;
-  /* set sidebar for 200px and the rest is taking all the rest*/
-  /* grid-template-columns: 1fr 4fr; */
-  grid-template-columns: 1fr 4fr;
-  padding: 10px;
 }

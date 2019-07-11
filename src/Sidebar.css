@@ -1,6 +1,9 @@
 #sidebar {
-  display: grid;
-  grid-template-columns: 1fr;
+  /* display: grid;
+  grid-template-columns: 1fr; */
+  width:250px;
+  margin-right: 50px;
+  padding: 100px;
 	background: #3a133e;
 	color: #c2b7c5;
 	padding: 20px;
