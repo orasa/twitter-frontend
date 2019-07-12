@@ -25,11 +25,12 @@ class Hashtag extends Component {
 
 			  <div className="hashtagBox">
 						 <div className='hashtag'>
-								<li>#{this.state.hashtag.name}</li>
+								<li>{ this.state.hashtag.active ? 'active' : '' }
+									onClick={() => this.props.selectHashtag(this.state.hashtag.id)}
+									#{this.state.hashtag.name}</li>
 
-
-						 </div>
-			  </div>
+				 </div>
+			 </div>
 			)
 		 }
 

@@ -7,11 +7,11 @@ import Hashtag from './Hashtag'
 class HashtagBar extends Component {
 
 	state = {
-		title: "Hot Trend",
+		title: "Hot Trends",
 		hashtags: [
 			{ id: 1,	name: "Coding"},
 			{	id: 2,  name: "Travels"},
-			{ id: 3,  name: "Life" }	 
+			{ id: 3,  name: "Life" }
 	  ]
 	}
 	//Functions

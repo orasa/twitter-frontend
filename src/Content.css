@@ -71,7 +71,21 @@ border: solid 3px grey;
   background-color: white;
   border-radius: 5px;
   border: solid 3px grey;
+  with: 50px;
+
+}
+.hashtag {
+  width: 150px;
+  padding:5px;
 }
 .hashtag ul {
 
+
+}
+.hashtag li {
+
+
+  list-style-type: none;
+  width: 100px;
+  cursor: pointer;
 }

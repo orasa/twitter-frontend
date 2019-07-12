@@ -22,7 +22,7 @@ class App extends Component {
 				  <div className="row">
 
 					  <Sidebar />
-						<Content hastag={this.state.hastag}/>
+						<Content hastag={this.state.hashtag}/>
 
 				</div>
 			</div>
